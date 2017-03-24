@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="@dimen/w_5"
+    >
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/w_207"
+        android:layout_height="@dimen/h_273"
+        android:scaleType="fitXY"
+        android:src="@drawable/base_img"
+        />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/w_207"
+        android:layout_height="@dimen/h_47"
+        android:text="影片名"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:textSize="@dimen/w_25"
+        android:background="#88333333"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoPlay</string>
+    <string name="film">电影</string>
+    <string name="variety">综艺</string>
+    <string name="teleplay">电视剧</string>
+    <string name="other">其它</string>
+    <string name="play">播放</string>
+    <string name="stow">收藏</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="dialog_title">确认付款</string>
+    <string name="dialog_msg1">您观看的电影属于付费电影，您确认付费</string>
+    <string name="dialog_msg2">RMB.观看该影片吗？</string>
+
+    <string name="resume_1">您上次观看至:</string>
+    <string name="resume_2">,五秒内按左键从头观看！</string>
+    <string name="pay">已付款</string>
+</resources>

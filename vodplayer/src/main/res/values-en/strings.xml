@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoPlay</string>
+    <string name="film">Film</string>
+    <string name="variety">Variety</string>
+    <string name="teleplay">Teleplay</string>
+    <string name="other">Other</string>
+    <string name="play">PLAY</string>
+    <string name="stow">FAV</string>
+
+    <string name="confirm">OK</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="dialog_title">NOTICE</string>
+    <string name="dialog_msg1">TOTAL: </string>
+    <string name="dialog_msg2"> RMB. Please place your order.</string>
+
+    <string name="resume_1">Resume playing at </string>
+    <string name="resume_2">，please press LEFT to play from the beginning within 5 seconds
+</string>
+    <string name="pay">Already paid</string>
+</resources>

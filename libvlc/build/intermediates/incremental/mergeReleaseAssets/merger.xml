@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\djstava\OTTSolution\OTTVODPlayer\libvlc\assets"/><source path="D:\djstava\OTTSolution\OTTVODPlayer\libvlc\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\djstava\OTTSolution\OTTVODPlayer\libvlc\src\release\assets"/></dataSet></merger>

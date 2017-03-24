@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.xugaoxiang.ott.player"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0.20"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFile = new File(output.outputFile.parent, defaultConfig.applicationId + "_" + defaultConfig.versionName +".apk" );
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:recyclerview-v7:23.2.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile project(':androidtvwidget')
+    compile files('libs/android-async-http-1.4.8.jar')
+    compile files('libs/gson-2.3.1.jar')
+    compile files('libs/glide-3.7.0.jar')
+    compile project(':libvlc')
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+}
